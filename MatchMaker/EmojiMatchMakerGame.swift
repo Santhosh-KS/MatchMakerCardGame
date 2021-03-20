@@ -10,9 +10,9 @@ import SwiftUI
 
 
 
-class EmojiMatchMakerGame {
+class EmojiMatchMakerGame: ObservableObject {
   
-  private var model: MatchMakerGame<String> = EmojiMatchMakerGame.createMatchMakerGame()
+  @Published private var model: MatchMakerGame<String> = EmojiMatchMakerGame.createMatchMakerGame()
   
   static func createMatchMakerGame() -> MatchMakerGame<String> {
     let emojis = ["👻", "💀", "👽"]
@@ -20,7 +20,8 @@ class EmojiMatchMakerGame {
       emojis[pairIndex]
     }
   }
-    
+  
+  
   
   // MARK: - Access to the Model
   
@@ -31,6 +32,7 @@ class EmojiMatchMakerGame {
   // MARK: Intent(s)
   
   func choose(card: MatchMakerGame<String>.Card) {
+   // objectWillChange.send()
     model.choose(card: card)
   }
 }

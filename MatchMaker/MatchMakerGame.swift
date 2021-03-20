@@ -10,8 +10,20 @@ import Foundation
 struct MatchMakerGame<CardContent> {
   var cards: Array<Card>
   
-  func choose(card: Card) {
-    print("Hello there! card chosen \(card)")
+  mutating func choose(card: Card) {
+    print("card chosen \(card)")
+    let chosenIndex: Int  = index(of: card)
+    cards[chosenIndex].isFaceUp = !cards[chosenIndex].isFaceUp
+    
+  }
+  
+  func index(of card: Card) -> Int {
+    for index in 0..<cards.count {
+      if cards[index].id == card.id {
+        return index
+      }
+    }
+    return 0  // TODO: Bogus!
   }
   
   init(numberOfParisOfCards: Int, cardContentFactory: (Int) -> CardContent) {

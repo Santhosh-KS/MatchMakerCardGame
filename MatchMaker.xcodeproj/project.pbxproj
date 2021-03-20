@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C8EB7CF260276D60032FDA0 /* MatchMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EB7CE260276D60032FDA0 /* MatchMakerApp.swift */; };
-		2C8EB7D1260276D60032FDA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EB7D0260276D60032FDA0 /* ContentView.swift */; };
+		2C8EB7D1260276D60032FDA0 /* MatchMakerGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EB7D0260276D60032FDA0 /* MatchMakerGameView.swift */; };
 		2C8EB7D3260276D60032FDA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8EB7D2260276D60032FDA0 /* Assets.xcassets */; };
 		2C8EB7D6260276D60032FDA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8EB7D5260276D60032FDA0 /* Preview Assets.xcassets */; };
 		2C8EB7E1260276D60032FDA0 /* MatchMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EB7E0260276D60032FDA0 /* MatchMakerTests.swift */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		2C8EB7CB260276D60032FDA0 /* MatchMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8EB7CE260276D60032FDA0 /* MatchMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchMakerApp.swift; sourceTree = "<group>"; };
-		2C8EB7D0260276D60032FDA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C8EB7D0260276D60032FDA0 /* MatchMakerGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchMakerGameView.swift; sourceTree = "<group>"; };
 		2C8EB7D2260276D60032FDA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C8EB7D5260276D60032FDA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C8EB7D7260276D60032FDA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				2C8EB7CE260276D60032FDA0 /* MatchMakerApp.swift */,
-				2C8EB7D0260276D60032FDA0 /* ContentView.swift */,
+				2C8EB7D0260276D60032FDA0 /* MatchMakerGameView.swift */,
 				2C8EB7FC26051A3D0032FDA0 /* MatchMakerGame.swift */,
 				2C8EB80126051C3D0032FDA0 /* EmojiMatchMakerGame.swift */,
 				2C8EB7D2260276D60032FDA0 /* Assets.xcassets */,
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C8EB7D1260276D60032FDA0 /* ContentView.swift in Sources */,
+				2C8EB7D1260276D60032FDA0 /* MatchMakerGameView.swift in Sources */,
 				2C8EB7CF260276D60032FDA0 /* MatchMakerApp.swift in Sources */,
 				2C8EB7FD26051A3D0032FDA0 /* MatchMakerGame.swift in Sources */,
 				2C8EB80226051C3D0032FDA0 /* EmojiMatchMakerGame.swift in Sources */,
